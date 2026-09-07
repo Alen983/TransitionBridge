@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Student__c</members>
+        <members>Program__c</members>
+        <members>IEP_Transition_Goal__c</members>
+        <members>Accommodation_Record__c</members>
+        <members>Program_Enrollment__c</members>
+        <members>Deadline_Milestone__c</members>
+        <members>Escalation_Log__c</members>
+        <members>Agent_Action_Log__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Student__c</members>
+        <members>Program__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>TransitionBridge_User</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>67.0</version>
+</Package>

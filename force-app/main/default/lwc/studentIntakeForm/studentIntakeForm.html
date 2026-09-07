@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="New Student Intake" icon-name="standard:contact">
+        <div class="slds-p-around_medium">
+            <lightning-input label="Student Name" value={studentName} onchange={handleNameChange} required></lightning-input>
+            <lightning-input type="date" label="Date of Birth" value={dateOfBirth} onchange={handleDobChange}></lightning-input>
+            <lightning-input label="School" value={school} onchange={handleSchoolChange}></lightning-input>
+            <lightning-combobox
+                label="Grade Status"
+                value={gradeStatus}
+                options={gradeOptions}
+                onchange={handleGradeChange}>
+            </lightning-combobox>
+            <lightning-input type="checkbox" label="Has IEP" checked={iepFlag} onchange={handleIepChange}></lightning-input>
+            <lightning-input label="Primary Guardian Name" value={guardianName} onchange={handleGuardianNameChange}></lightning-input>
+            <lightning-input type="tel" label="Primary Guardian Contact" value={guardianContact} onchange={handleGuardianContactChange}></lightning-input>
+            <div class="slds-m-top_medium">
+                <lightning-button variant="brand" label="Save Student" onclick={handleSave} disabled={isSaving}></lightning-button>
+            </div>
+            <template if:true={successMessage}>
+                <div class="slds-m-top_small slds-text-color_success">{successMessage}</div>
+            </template>
+            <template if:true={errorMessage}>
+                <div class="slds-m-top_small slds-text-color_error">{errorMessage}</div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

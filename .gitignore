@@ -1,0 +1,30 @@
+# Salesforce local tooling
+.sf/
+.sfdx/
+.localdevserver/
+deploy-options.json
+
+# LWC VS Code autocomplete
+**/lwc/jsconfig.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# ESLint cache
+.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
