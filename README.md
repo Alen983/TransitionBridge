@@ -2,6 +2,11 @@
 
 A Salesforce application that helps schools and transition coordinators guide students—especially those with IEPs—from school to adult services, benefits, and community programs.
 
+<p align="center">
+  <img width="500" height="350" src="cover-github.gif">
+</p>    
+
+  <p align="center"> "Image from terrestrial atmosphere"</p> 
 ## Overview
 
 TransitionBridge centralizes student transition planning in one place. Counselors and case workers can track students, manage program referrals, monitor deadlines, and escalate issues when gaps or risks are identified. Built-in agent actions support automated workflows for gap analysis, referral drafting, follow-ups, and escalation routing.
