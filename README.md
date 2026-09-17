@@ -88,6 +88,9 @@ Run the scripts in `scripts/apex/` via the Developer Console or CLI:
 sf apex run --file scripts/apex/loadSampleData.apex
 ```
 
+### Assign permissions
+
+Assign the **TransitionBridge User** permission set to users who need access to the app.
 
 ## License
 
