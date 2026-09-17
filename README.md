@@ -18,12 +18,12 @@ TransitionBridge centralizes student transition planning in one place. Counselor
 
 ## Features
 
-- **Student intake** — Lightning Web Component form to register students with school, grade status, IEP flag, and guardian contact details
-- **Program & referral management** — Track programs, enrollments, and referral status across agencies
-- **Deadline tracking** — Monitor transition milestones and age-based deadlines per student
-- **Gap identification** — Detect missing referrals, incomplete data, and timeline risks
-- **Escalation workflow** — Route urgent cases to Benefits Counselors or Case Workers queues
-- **Agent action logging** — Audit trail of automated actions taken on behalf of each student
+- **Student intake** — Lightning Web Component form to register students with school, grade status, IEP flag, and guardian contact details.
+- **Program & referral management** — Track programs, enrollments, and referral status across agencies.
+- **Deadline tracking** — Monitor transition milestones and age-based deadlines per student.
+- **Gap identification** — Detect missing referrals, incomplete data, and timeline risks.
+- **Escalation workflow** — Route urgent cases to Benefits Counselors or Case Workers queues.
+- **Agent action logging** — Audit trail of automated actions taken on behalf of each student.
 
 ## Data Model
 
