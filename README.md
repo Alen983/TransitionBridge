@@ -1,3 +1,7 @@
+![Agentforce for Good Hackathon — Dreamforce 2026](https://img.shields.io/badge/Agentforce_for_Good_Hackathon-Dreamforce_2026-0176D3?style=for-the-badge)
+
+![Equality Champion](https://img.shields.io/badge/Award-Equality_Champion-0176D3?style=for-the-badge)
+
 # TransitionBridge
 
 A Salesforce application that helps schools and transition coordinators guide students—especially those with IEPs—from school to adult services, benefits, and community programs.
